@@ -1,0 +1,38 @@
+.nav{
+    display: flex;
+    flex: 1;
+    height: 70px;
+    background-color: #1bc3da;
+    align-items: center;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    margin-left: auto;
+}
+
+.nav ul li{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul li:hover{
+    cursor: pointer;
+    background-color: blue;
+    font-weight: bold;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black
+}
+
+.nav ul li.active{
+    background-color: blue;
+}
