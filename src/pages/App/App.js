@@ -10,7 +10,8 @@ import Navbar from '../../components/Navbar/Navbar';
 import userService from "../../services/userService";
 import SignupPage from '../../pages/SignupPage/SignupPage'
 import LoginPage from "../LoginPage/LoginPage";
-import Rentals from "../Rentals/Rentals";
+import RentalList from "../RentalList/RentalList";
+import NewRental from "../../components/NewRental/NewRental";
 
 class App extends Component {
 
@@ -43,8 +44,11 @@ class App extends Component {
           <Route path='/' exact>
             <h1>Welcome to the Ski Rental App</h1>
           </Route>
-          <Route path='/rentals' >
-            <Rentals currentUser = {this.state.user}/>
+          <Route path='/rentals' exact>
+            <RentalList currentUser = {this.state.user}/>
+          </Route>
+          <Route path='/rentals/new'>
+            <NewRental currentUser = {this.state.user}/>
           </Route>
           <Route path='/signup'>
             <SignupPage />
