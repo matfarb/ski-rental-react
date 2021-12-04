@@ -8,4 +8,6 @@ MongoDB/Mongoose, Express, React, Node
 
 [Trello Board](https://trello.com/b/srL85pDE/ski-rental-app)
 
+ERD
+
 ![ERD](https://user-images.githubusercontent.com/85907558/144714629-de9c7f51-b544-4dc3-b7fb-737af9f04f68.jpg)
