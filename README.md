@@ -4,6 +4,7 @@ Project 4 of SEI Flex 41
 An app that allows a user to rent ski equipment for one or multiple people
 
 Technologies used:
+<br>
 MongoDB/Mongoose, Express, React, Node
 
 [Trello Board](https://trello.com/b/srL85pDE/ski-rental-app)
