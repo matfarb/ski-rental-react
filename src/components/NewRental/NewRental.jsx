@@ -22,7 +22,6 @@ function NewRental(props){
 
     const handleAddEquipmentSet = (event) => {
         event.preventDefault()
-        console.log("clicked")
         setEquipment([
             ...equipment,
             { skis: '', poles: '', helmet: '', boots: '' }
@@ -37,7 +36,6 @@ function NewRental(props){
             equipment,
             isReturned: false
         }
-
         const result = await createRental(formData)
         history.push('/rentals')
     }

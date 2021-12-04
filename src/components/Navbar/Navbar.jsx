@@ -22,6 +22,11 @@ function Navbar(props) {
               </NavLink>
             </li>
             <li>
+              <NavLink to="/rentals/new" activeClassName="active">
+                Create a Rental
+              </NavLink>
+            </li>
+            <li>
               <NavLink
                 to=""
                 activeClassName="active"
