@@ -26,6 +26,7 @@ class SignupForm extends Component {
         /**send data to api by calling the signup function in your userService */
         try {
             await userService.signup(this.state)
+            this.props.history.push('/rentals')
         }catch(err){
             console.log(err)
         }

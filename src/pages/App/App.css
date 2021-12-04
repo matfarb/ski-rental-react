@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-image: url('https://wp.usatodaysports.com/wp-content/uploads/sites/88/2012/03/screen-shot-2012-03-08-at-10-14-39-am.png');
+  background-size: cover;
+  background-attachment: fixed;
+}

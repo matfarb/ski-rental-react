@@ -8,16 +8,26 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 500px;
+    width: 70vw;
     padding: 25px;
 }
+
+.card-container{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .rental{
     padding: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1.8);
     transition: 0.3s;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color:white;
+    margin: 25px;
+    width: 455px
 }
 
 .equipment-set{
@@ -26,10 +36,26 @@
     transition: 0.3s;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 0 10px;
 }
 
 .equipment-list{
     display: flex;
     flex-wrap: wrap;
+    padding: 0 20px 0 25px;
+}
+
+.card-top{
+    width: 385px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rental-dates{
+    width: 385px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
